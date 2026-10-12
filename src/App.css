@@ -1,0 +1,257 @@
+
+#root {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.site-header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 24px 32px;
+    border-bottom: 1px solid var(--border);
+}
+
+.logo {
+    font-weight: 700;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    gap: 24px;
+}
+
+    nav a {
+        color: inherit;
+        text-decoration: none;
+    }
+
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+.hero {
+    padding: 100px 0;
+    max-width: 750px;
+}
+
+.eyebrow {
+    margin-top: 0;
+    font-size: 1.2rem;
+    letter-spacing: 0.12em;
+}
+
+h1 {
+    font-size: clamp(2.5rem, 7vw, 5rem);
+    line-height: 1.05;
+    margin: 24px 0;
+}
+
+.intro {
+    font-size: 1.15rem;
+    line-height: 1.8;
+    max-width: 600px;
+}
+
+.name {
+    font-size: clamp(1.2rem, 5vw, 3rem);
+    line-height: 1.8;
+    max-width: 600px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 0;
+}
+
+.section-intro {
+    max-width: 620px;
+    margin: 16px 0 32px;
+    color: var(--text);
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px;
+    margin-top: 32px;
+    text-align: left;
+}
+
+.project-card {
+    min-width: 0;
+    overflow: hidden;
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    transition: border-color 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+    .project-card:hover {
+        border-color: var(--accent-border);
+        transform: translateY(-4px);
+        box-shadow: var(--shadow);
+    }
+
+.project-image {
+    min-height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient( ellipse at center, rgba(192, 132, 252, 0.12), transparent 70% ), #20212a;
+    border-bottom: 1px solid var(--border);
+}
+
+    .project-image span {
+        font-family: var(--mono);
+        font-size: 0.75rem;
+        letter-spacing: 0.15em;
+        color: var(--text);
+    }
+
+.project-content {
+    padding: 24px;
+}
+
+    .project-content h3 {
+        margin: 0 0 14px;
+        font-size: 1.4rem;
+    }
+
+.project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 18px;
+}
+
+
+    .project-tags span {
+        display: inline-block;
+        padding: 4px 10px;
+        border: 1px solid var(--tag-border);
+        border-radius: 6px;
+        background: var(--tag-bg);
+        color: var(--tag-text);
+        font-size: 0.75rem;
+        font-weight: 500;
+        line-height: 1.5;
+    }
+
+
+/*blue*/
+.tag-blue {
+    --tag-bg: #263b60;
+    --tag-border: #527dc0;
+    --tag-text: #b9d5ff;
+}
+
+/*greebn*/
+.tag-green {
+    --tag-bg: #204638;
+    --tag-border: #3e9b72;
+    --tag-text: #a8f0cc;
+}
+
+/*oiple*/
+.tag-purple {
+    --tag-bg: #4a2b62;
+    --tag-border: #9862c5;
+    --tag-text: #e2c4ff;
+}
+
+/*peach*/
+.tag-peach {
+    --tag-bg: #65352c;
+    --tag-border: #c87559;
+    --tag-text: #ffc4ad;
+}
+
+/*gold*/
+.tag-gold {
+    --tag-bg: #55471f;
+    --tag-border: #b99a42;
+    --tag-text: #f7df91;
+}
+/*teal*/
+.tag-teal {
+    --tag-bg: #283f43;
+    --tag-border: #4e9298;
+    --tag-text: #b4e9ed;
+}
+
+.project-content > p {
+    color: var(--text);
+    font-size: 0.95rem;
+    line-height: 1.7;
+    margin: 0 0 20px;
+}
+
+.project-link {
+    display: inline-block;
+    color: var(--text-h);
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+    .project-link:hover {
+        color: var(--accent);
+    }
+
+@media (max-width: 700px) {
+    .project-grid {
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    .project-image {
+        min-height: 150px;
+    }
+
+    .project-content {
+        padding: 20px;
+    }
+}
+
+.work-link {
+    background: #0777b9e1;
+    border: 2px solid #FFFFFF;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 12px 24px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-family: var(--heading);
+    color: var(--text-h);
+    font-weight: 600;
+    line-height: 1.15;
+    font-size: clamp(1.75rem, 3vw, 2.5rem);
+    letter-spacing: -0.035em;
+    margin: 0 0 16px;
+}
+
+.section {
+    padding: 64px 0;
+    border-top: 1px solid #dedede;
+}
+
+@media (max-width: 600px) {
+    .site-header {
+        align-items: flex-start;
+        gap: 16px;
+    }
+
+    nav {
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+
+    .hero {
+        padding: 72px 0;
+    }
+}

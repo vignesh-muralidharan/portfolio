@@ -55,20 +55,20 @@ function App() {
                     <div className="project-grid">
                         <article className="project-card">
                             <div className="project-image">
-                                <span>PROJECT 01</span>
+                                <img src="/liminality.png" alt="Poster of the game Liminality" className="project-thumbnail" />
                             </div>
 
                             <div className="project-content">
-                                <h3>Game Project</h3>
+                                <h3>Liminality</h3>
 
                                 <div className="project-tags">
-                                    <span className="tag-green">Game Design</span>
+                                    <span className="tag-teal">Game Design</span>
                                     <span className="tag-green">Programming</span>
-                                    <span className="tag-gold">Narrative Design</span>
+                                    <span className="tag-gold">Pygame</span>
                                 </div>
 
                                 <p>
-                                    some game project
+                                    A game I made in my undergrad to learn pygame.
                                 </p>
 
                                 <a href="#contact" className="project-link">
@@ -79,20 +79,20 @@ function App() {
 
                         <article className="project-card">
                             <div className="project-image">
-                                <span>PROJECT 02</span>
+                                <img src="/dr-clueblin-flyer.png" alt="Flyer Depicting dr clueblin and the catchphrase 'its about to get funky'" className="project-thumbnail" />
                             </div>
 
                             <div className="project-content">
-                                <h3>Composition Name</h3>
+                                <h3>Dr. Clueblin, QC</h3>
 
                                 <div className="project-tags">
-                                    <span className="tag-gold">Composition</span>
-                                    <span className="tag-teal">Music Production</span>
-                                    <span className="tag-purple">Foley</span>
+                                    <span className="tag-teal">Game Design</span>
+                                    <span className="tag-green">Programming</span>
+                                    <span className="tag-purple">Audio Design</span>
                                 </div>
 
                                 <p>
-                                    PROJECT DESCRIPTION
+                                    Dr. Clueblin, QC is a top-down, grid-based puzzle game where you play a goblin detective searching for his lost sister.
                                 </p>
 
                                 <a href="#contact" className="project-link">
@@ -103,20 +103,20 @@ function App() {
 
                         <article className="project-card">
                             <div className="project-image">
-                                <span>PROJECT 03</span>
+                                <img src = "/ooga-booga.png" alt="Poster of Ooga Booga" className="project-thumbnail"/>
                             </div>
 
                             <div className="project-content">
-                                <h3>Programming Project</h3>
+                                <h3>Ooga Booga</h3>
 
                                 <div className="project-tags">
-                                    <span className="tag-gold">Programming</span>
-                                    <span className="tag-gold">Genetic AI</span>
-                                    <span className="tag-gold">Prototyping</span>
+                                    <span className="tag-teal">Game Design</span>
+                                    <span className="tag-gold">Board Game Development</span>
+                                    <span className="tag-peach">Prototyping</span>
                                 </div>
 
                                 <p>
-                                    PROJECT DESCRIPTION
+                                     Ooga Booga game where you caveperson and become chief. You chief when have all rock. Rock make head no round. Head round good. Make everyone else head not round and be chief.
                                 </p>
 
                                 <a href="#contact" className="project-link">

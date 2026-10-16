@@ -15,6 +15,9 @@ function App() {
                     <a href="#contact">
                         Contact
                     </a>
+                    <a href="/resume">
+                        Resume
+                    </a>
                 </nav>
             </header>
 
@@ -43,13 +46,13 @@ function App() {
                 </section>
                 <section id="work" className="section">
                     <p className="eyebrow">
-                        A SELECTION OF MY WORK
+                        A Comprehensive List of My Work
                     </p>
                     <h2>
-                        Selected Projects
+                        My Work
                     </h2>
                     <p className="section-intro">
-                        Introduce Section Here
+                        Here is a comprehensive list of everything I have had a hand in making thus far! <br/>Many of these projects show my versatility and capability to work in different disciplines.
                     </p>
 
                     <div className="project-grid">
@@ -95,8 +98,8 @@ function App() {
                                     Dr. Clueblin, QC is a top-down, grid-based puzzle game where you play a goblin detective searching for his lost sister.
                                 </p>
 
-                                <a href="#contact" className="project-link">
-                                    Read More
+                                <a href="https://macarenzle.itch.io/dr-clueblin-qc" className="project-link" target="_blank">
+                                    Play it on itch.io!
                                 </a>
                             </div>
                         </article>
@@ -126,11 +129,60 @@ function App() {
                         </article>
                         <article className="project-card">
                             <div className="project-image">
+                                <img src="/area-f1.png" alt="Banner for Area Freaky One" className="project-thumbnail"/>
+                            </div>
+
+                            <div className="project-content">
+                                <h3>Area Freaky One</h3>
+
+                                <div className="project-tags">
+                                    <span className="tag-teal">Game Design</span>
+                                    <span className="tag-gold">Gameplay Programming</span>
+                                    <span className="tag-peach">Audio Production</span>
+                                </div>
+
+                                <p>
+                                    WELCOME TO THE FREAKY ZONE !!!111!!11!1! You have so many eager aliens ready to be taken under your care. It's time for you to be an awesome caregiver to these delightful little guys.
+
+                                    In this collection of silly minigames, mess around with a bunch of little aliens. Feed them, grab them, shake them -- anything you can dream of!
+                                    Area Freaky One is a game made for the RIT IGM Roll Your Fate Game Jam 2025.
+                                </p>
+
+                                <a href="https://macarenzle.itch.io/area-freaky-one" className="project-link" target="_blank">
+                                    Play it on itch.io!
+                                </a>
+                            </div>
+                        </article>
+                        <article className="project-card">
+                            <div className="project-image">
+                                <img src="/platformpiracy.png" alt="A pirated image of a hand holding the CD main character of Platform Piracy" className="project-thumbnail"/>
+                            </div>
+
+                            <div className="project-content">
+                                <h3>Platform Piracy</h3>
+
+                                <div className="project-tags">
+                                    <span className="tag-teal">Game Design</span>
+                                    <span className="tag-gold">Gameplay Programming</span>
+                                    <span className="tag-peach"> Rapid Prototyping</span>
+                                </div>
+
+                                <p>
+                                   In the year 2026, Activision-Blizzard-EA-Ubisoft-Nintendo-Microsoft-Sony (ABEAUNMS) has patented the idea of video games - and every mechanic therein. Those who want to play must spend incredible amounts of money and submit to this unfair system. You play as a piracy disk on a quest to retake games for the people. Collect patents to use their abilities and fight against THE Megacorp!
+                                </p>
+
+                                <a href="https://bluemane.itch.io/platform-piracy" className="project-link" target="_blank">
+                                    Play it on itch.io!
+                                </a>
+                            </div>
+                        </article>
+                        <article className="project-card">
+                            <div className="project-image">
                                 {/*<img src="/ooga-booga.png" alt="" className="project-thumbnail"/>*/}
                             </div>
 
                             <div className="project-content">
-                                <h3>Ooga Booga</h3>
+                                <h3>Overfished!</h3>
 
                                 <div className="project-tags">
                                     <span className="tag-teal">Game Design</span>
@@ -139,7 +191,7 @@ function App() {
                                 </div>
 
                                 <p>
-                                    Ooga Booga game where you caveperson and become chief. You chief when have all rock. Rock make head no round. Head round good. Make everyone else head not round and be chief.
+                                    Technically a SERIOUS game.
                                 </p>
 
                                 <a href="#contact" className="project-link">
@@ -153,7 +205,7 @@ function App() {
                             </div>
 
                             <div className="project-content">
-                                <h3>Ooga Booga</h3>
+                                <h3>Squeak or Squawk</h3>
 
                                 <div className="project-tags">
                                     <span className="tag-teal">Game Design</span>
@@ -165,8 +217,8 @@ function App() {
                                     Ooga Booga game where you caveperson and become chief. You chief when have all rock. Rock make head no round. Head round good. Make everyone else head not round and be chief.
                                 </p>
 
-                                <a href="#contact" className="project-link">
-                                    Read More
+                                <a href="https://cryonicstrider.itch.io/squeak-or-squawk" className="project-link">
+                                    Download from itch.io
                                 </a>
                             </div>
                         </article>
@@ -176,53 +228,7 @@ function App() {
                             </div>
 
                             <div className="project-content">
-                                <h3>Ooga Booga</h3>
-
-                                <div className="project-tags">
-                                    <span className="tag-teal">Game Design</span>
-                                    <span className="tag-gold">Board Game Development</span>
-                                    <span className="tag-peach">Prototyping</span>
-                                </div>
-
-                                <p>
-                                    Ooga Booga game where you caveperson and become chief. You chief when have all rock. Rock make head no round. Head round good. Make everyone else head not round and be chief.
-                                </p>
-
-                                <a href="#contact" className="project-link">
-                                    Read More
-                                </a>
-                            </div>
-                        </article>
-                        <article className="project-card">
-                            <div className="project-image">
-                                {/*<img src="/ooga-booga.png" alt="" className="project-thumbnail"/>*/}
-                            </div>
-
-                            <div className="project-content">
-                                <h3>Ooga Booga</h3>
-
-                                <div className="project-tags">
-                                    <span className="tag-teal">Game Design</span>
-                                    <span className="tag-gold">Board Game Development</span>
-                                    <span className="tag-peach">Prototyping</span>
-                                </div>
-
-                                <p>
-                                    Ooga Booga game where you caveperson and become chief. You chief when have all rock. Rock make head no round. Head round good. Make everyone else head not round and be chief.
-                                </p>
-
-                                <a href="#contact" className="project-link">
-                                    Read More
-                                </a>
-                            </div>
-                        </article>
-                        <article className="project-card">
-                            <div className="project-image">
-                                {/*<img src="/ooga-booga.png" alt="" className="project-thumbnail"/>*/}
-                            </div>
-
-                            <div className="project-content">
-                                <h3>Ooga Booga</h3>
+                                <h3>Firmament</h3>
 
                                 <div className="project-tags">
                                     <span className="tag-teal">Game Design</span>

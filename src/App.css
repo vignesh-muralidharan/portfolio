@@ -66,7 +66,7 @@ h1 {
 }
 
 .section-intro {
-    max-width: 620px;
+    max-width: 1040px;
     margin: 16px 0 32px;
     color: var(--text);
 }

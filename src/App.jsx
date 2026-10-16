@@ -68,7 +68,7 @@ function App() {
                                 </div>
 
                                 <p>
-                                    A game I made in my undergrad to learn pygame.
+                                    A game I made in my undergrad to learn pygame. The game was made entirely in code, using free sprite sheets and basic created images.
                                 </p>
 
                                 <a href="#contact" className="project-link">
@@ -117,6 +117,121 @@ function App() {
 
                                 <p>
                                      Ooga Booga game where you caveperson and become chief. You chief when have all rock. Rock make head no round. Head round good. Make everyone else head not round and be chief.
+                                </p>
+
+                                <a href="#contact" className="project-link">
+                                    Read More
+                                </a>
+                            </div>
+                        </article>
+                        <article className="project-card">
+                            <div className="project-image">
+                                {/*<img src="/ooga-booga.png" alt="" className="project-thumbnail"/>*/}
+                            </div>
+
+                            <div className="project-content">
+                                <h3>Ooga Booga</h3>
+
+                                <div className="project-tags">
+                                    <span className="tag-teal">Game Design</span>
+                                    <span className="tag-gold">Board Game Development</span>
+                                    <span className="tag-peach">Prototyping</span>
+                                </div>
+
+                                <p>
+                                    Ooga Booga game where you caveperson and become chief. You chief when have all rock. Rock make head no round. Head round good. Make everyone else head not round and be chief.
+                                </p>
+
+                                <a href="#contact" className="project-link">
+                                    Read More
+                                </a>
+                            </div>
+                        </article>
+                        <article className="project-card">
+                            <div className="project-image">
+                                {/*<img src="/ooga-booga.png" alt="" className="project-thumbnail"/>*/}
+                            </div>
+
+                            <div className="project-content">
+                                <h3>Ooga Booga</h3>
+
+                                <div className="project-tags">
+                                    <span className="tag-teal">Game Design</span>
+                                    <span className="tag-gold">Board Game Development</span>
+                                    <span className="tag-peach">Prototyping</span>
+                                </div>
+
+                                <p>
+                                    Ooga Booga game where you caveperson and become chief. You chief when have all rock. Rock make head no round. Head round good. Make everyone else head not round and be chief.
+                                </p>
+
+                                <a href="#contact" className="project-link">
+                                    Read More
+                                </a>
+                            </div>
+                        </article>
+                        <article className="project-card">
+                            <div className="project-image">
+                                {/*<img src="/ooga-booga.png" alt="" className="project-thumbnail"/>*/}
+                            </div>
+
+                            <div className="project-content">
+                                <h3>Ooga Booga</h3>
+
+                                <div className="project-tags">
+                                    <span className="tag-teal">Game Design</span>
+                                    <span className="tag-gold">Board Game Development</span>
+                                    <span className="tag-peach">Prototyping</span>
+                                </div>
+
+                                <p>
+                                    Ooga Booga game where you caveperson and become chief. You chief when have all rock. Rock make head no round. Head round good. Make everyone else head not round and be chief.
+                                </p>
+
+                                <a href="#contact" className="project-link">
+                                    Read More
+                                </a>
+                            </div>
+                        </article>
+                        <article className="project-card">
+                            <div className="project-image">
+                                {/*<img src="/ooga-booga.png" alt="" className="project-thumbnail"/>*/}
+                            </div>
+
+                            <div className="project-content">
+                                <h3>Ooga Booga</h3>
+
+                                <div className="project-tags">
+                                    <span className="tag-teal">Game Design</span>
+                                    <span className="tag-gold">Board Game Development</span>
+                                    <span className="tag-peach">Prototyping</span>
+                                </div>
+
+                                <p>
+                                    Ooga Booga game where you caveperson and become chief. You chief when have all rock. Rock make head no round. Head round good. Make everyone else head not round and be chief.
+                                </p>
+
+                                <a href="#contact" className="project-link">
+                                    Read More
+                                </a>
+                            </div>
+                        </article>
+                        <article className="project-card">
+                            <div className="project-image">
+                                {/*<img src="/ooga-booga.png" alt="" className="project-thumbnail"/>*/}
+                            </div>
+
+                            <div className="project-content">
+                                <h3>Ooga Booga</h3>
+
+                                <div className="project-tags">
+                                    <span className="tag-teal">Game Design</span>
+                                    <span className="tag-gold">Board Game Development</span>
+                                    <span className="tag-peach">Prototyping</span>
+                                </div>
+
+                                <p>
+                                    Ooga Booga game where you caveperson and become chief. You chief when have all rock. Rock make head no round. Head round good. Make everyone else head not round and be chief.
                                 </p>
 
                                 <a href="#contact" className="project-link">

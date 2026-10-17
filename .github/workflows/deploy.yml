@@ -1,0 +1,77 @@
+
+# This workflow builds and deploys your Vite + React portfolio to GitHub Pages
+
+name: Deploy Portfolio to GitHub Pages
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the "master" branch
+  push:
+    branches: ["master"]
+  pull_request:
+    branches: ["master"]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Permissions required to build and deploy the site to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Prevents multiple deployments from running at the same time
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  build:
+    # The type of runner the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks executed by the runner
+    steps:
+      - uses: actions/checkout@v4
+      # Sets up Node.js so npm commands can run
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      # Installs project dependencies from package-lock.json
+      - name: Install dependencies
+        run: npm ci
+
+      # Builds the Vite website into the dist folder
+      - name: Build Vite site
+        run: npm run build
+
+      # Uploads the built website so the deployment job can access it
+      - name: Upload build artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  # This job deploys the built website to GitHub Pages
+  deploy:
+    # Pull requests can test the build but must not deploy the website
+    if: github.event_name != 'pull_request'
+
+    # Specifies the GitHub Pages deployment environment
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    runs-on: ubuntu-latest
+
+    # Makes sure the build job finishes successfully before deployment
+    needs: build
+
+    steps:
+      # Publishes the uploaded website to GitHub Pages
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

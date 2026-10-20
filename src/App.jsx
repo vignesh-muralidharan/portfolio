@@ -15,7 +15,7 @@ function App() {
                     <a href="#contact">
                         Contact
                     </a>
-                    <a href="/resume">
+                    <a href="/resume.pdf" target="_blank" rel="noreferrer">
                         Resume
                     </a>
                 </nav>
